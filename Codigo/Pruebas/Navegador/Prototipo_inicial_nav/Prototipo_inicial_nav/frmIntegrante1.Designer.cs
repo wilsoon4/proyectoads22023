@@ -37,7 +37,7 @@ namespace Prototipo_inicial_nav
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 55);
+            this.label1.Location = new System.Drawing.Point(21, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(388, 29);
             this.label1.TabIndex = 0;
@@ -47,7 +47,7 @@ namespace Prototipo_inicial_nav
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 100);
+            this.label2.Location = new System.Drawing.Point(33, 141);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 29);
             this.label2.TabIndex = 1;
