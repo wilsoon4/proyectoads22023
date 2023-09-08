@@ -64,6 +64,12 @@
     <Compile Include="frmIntegrante4.Designer.cs">
       <DependentUpon>frmIntegrante4.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmIntegrante5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIntegrante5.Designer.cs">
+      <DependentUpon>frmIntegrante5.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIbase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmIntegrante4.resx">
       <DependentUpon>frmIntegrante4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIntegrante5.resx">
+      <DependentUpon>frmIntegrante5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIbase.resx">
       <DependentUpon>MDIbase.cs</DependentUpon>
