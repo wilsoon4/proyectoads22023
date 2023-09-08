@@ -16,10 +16,5 @@ namespace Prototipo_inicial_nav
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

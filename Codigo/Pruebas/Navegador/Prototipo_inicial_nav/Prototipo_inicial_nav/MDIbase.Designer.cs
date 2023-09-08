@@ -107,6 +107,7 @@ namespace Prototipo_inicial_nav
             this.integrante4ToolStripMenuItem.Name = "integrante4ToolStripMenuItem";
             this.integrante4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.integrante4ToolStripMenuItem.Text = "Integrante4";
+            this.integrante4ToolStripMenuItem.Click += new System.EventHandler(this.integrante4ToolStripMenuItem_Click);
             // 
             // integrante5ToolStripMenuItem
             // 
@@ -122,7 +123,7 @@ namespace Prototipo_inicial_nav
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MDIbase";
             this.Text = "Contenedor";
             this.Load += new System.EventHandler(this.MDIbase_Load);

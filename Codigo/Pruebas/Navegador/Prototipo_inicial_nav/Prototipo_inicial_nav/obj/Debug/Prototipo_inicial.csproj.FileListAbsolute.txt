@@ -30,3 +30,4 @@ C:\Users\olste\Desktop\OLIVER 2019\Tareas\Octavo Semestre\Analisis\repos\proyect
 C:\Users\olste\Desktop\OLIVER 2019\Tareas\Octavo Semestre\Analisis\repos\proyectoads22023\Codigo\Pruebas\Navegador\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial.csproj.CoreCompileInputs.cache
 C:\Users\olste\Desktop\OLIVER 2019\Tareas\Octavo Semestre\Analisis\repos\proyectoads22023\Codigo\Pruebas\Navegador\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.exe
 C:\Users\olste\Desktop\OLIVER 2019\Tareas\Octavo Semestre\Analisis\repos\proyectoads22023\Codigo\Pruebas\Navegador\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.pdb
+C:\Users\olste\Desktop\OLIVER 2019\Tareas\Octavo Semestre\Analisis\repos\proyectoads22023\Codigo\Pruebas\Navegador\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.frmIntegrante4.resources
