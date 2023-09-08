@@ -15,7 +15,6 @@ namespace Prototipo_inicial_nav
         public MDIbase()
         {
             InitializeComponent();
-            labels();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -35,18 +34,6 @@ namespace Prototipo_inicial_nav
             frmIntegrante1 formIntegrante1 = new frmIntegrante1();
             formIntegrante1.MdiParent = this;
             formIntegrante1.Show();
-
-            
-        }
-
-        public void labels()
-        {
-            Label DavidCarrillo = new Label();
-            Label Carnet = new Label();
-
-            DavidCarrillo.Text = "David Alejandro Carrillo de la Roca";
-            Carnet.Text = "0901-20-3201";
-
         }
 
         private void MDIbase_Load(object sender, EventArgs e)
