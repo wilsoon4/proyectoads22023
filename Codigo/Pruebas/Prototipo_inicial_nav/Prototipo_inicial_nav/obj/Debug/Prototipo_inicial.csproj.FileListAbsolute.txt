@@ -19,3 +19,15 @@ C:\Users\YOGA\Desktop\proyecto 2023\proyectoads22023\Codigo\Pruebas\Prototipo_in
 C:\Users\YOGA\Desktop\proyecto 2023\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.exe
 C:\Users\YOGA\Desktop\proyecto 2023\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.pdb
 C:\Users\YOGA\Desktop\proyecto 2023\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.frmIntegrante2.resources
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\bin\Debug\Prototipo_inicial_nav.exe.config
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\bin\Debug\Prototipo_inicial_nav.exe
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\bin\Debug\Prototipo_inicial_nav.pdb
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.frmIntegrante1.resources
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.frmIntegrante2.resources
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.MDIbase.resources
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.Properties.Resources.resources
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial.csproj.GenerateResource.cache
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.exe
+C:\Users\Dell\Documents\Proyectos UMG\Proyectos Analisis de Sistemas II\proyectoads22023\Codigo\Pruebas\Prototipo_inicial_nav\Prototipo_inicial_nav\obj\Debug\Prototipo_inicial_nav.pdb
