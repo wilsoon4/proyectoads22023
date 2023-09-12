@@ -40,5 +40,12 @@ namespace Prototipo_inicial_nav
         {
 
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmIntegrante1 formIntegrante1 = new frmIntegrante1();
+            formIntegrante1.MdiParent = this;
+            formIntegrante1.Show();
+        }
     }
 }

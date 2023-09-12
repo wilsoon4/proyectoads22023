@@ -30,14 +30,15 @@ namespace Prototipo_inicial_nav
         private void InitializeComponent()
         {
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.integrantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.integrante1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.integrante2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.integrante3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.integrante4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.integrante5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +50,13 @@ namespace Prototipo_inicial_nav
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem1
+            // 
+            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
+            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(121, 26);
+            this.salirToolStripMenuItem1.Text = "Salir";
+            this.salirToolStripMenuItem1.Click += new System.EventHandler(this.salirToolStripMenuItem1_Click);
             // 
             // menuStrip1
             // 
@@ -62,13 +70,6 @@ namespace Prototipo_inicial_nav
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // salirToolStripMenuItem1
-            // 
-            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.salirToolStripMenuItem1.Text = "Salir";
-            this.salirToolStripMenuItem1.Click += new System.EventHandler(this.salirToolStripMenuItem1_Click);
-            // 
             // integrantesToolStripMenuItem
             // 
             this.integrantesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -76,7 +77,8 @@ namespace Prototipo_inicial_nav
             this.integrante2ToolStripMenuItem,
             this.integrante3ToolStripMenuItem,
             this.integrante4ToolStripMenuItem,
-            this.integrante5ToolStripMenuItem});
+            this.integrante5ToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.integrantesToolStripMenuItem.Name = "integrantesToolStripMenuItem";
             this.integrantesToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
             this.integrantesToolStripMenuItem.Text = "Integrantes";
@@ -112,6 +114,13 @@ namespace Prototipo_inicial_nav
             this.integrante5ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.integrante5ToolStripMenuItem.Text = "Integrante5";
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem1.Text = "Integrante7";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
             // MDIbase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -140,6 +149,7 @@ namespace Prototipo_inicial_nav
         private System.Windows.Forms.ToolStripMenuItem integrante3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem integrante4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem integrante5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }
 
