@@ -112,6 +112,7 @@ namespace Prototipo_inicial_nav
             this.integrante4ToolStripMenuItem.Name = "integrante4ToolStripMenuItem";
             this.integrante4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.integrante4ToolStripMenuItem.Text = "Integrante4";
+            this.integrante4ToolStripMenuItem.Click += new System.EventHandler(this.integrante4ToolStripMenuItem_Click);
             // 
             // integrante5ToolStripMenuItem
             // 
