@@ -1,0 +1,18 @@
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.csproj.AssemblyReference.cache
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.csproj.CoreCompileInputs.cache
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\bin\Debug\Capa_ControladorConsultas.dll
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\bin\Debug\Capa_ControladorConsultas.pdb
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\bin\Debug\Capa_Modelo.dll
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\bin\Debug\Capa_Modelo.pdb
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.csproj.CopyComplete
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.dll
+C:\Users\linri\Desktop\Proyecto ingenieria de software - copia\proyectois2k23\Codigo\Componentes\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.pdb
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\bin\Debug\Capa_ControladorConsultas.dll
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\bin\Debug\Capa_ControladorConsultas.pdb
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\bin\Debug\Capa_Modelo.dll
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\bin\Debug\Capa_Modelo.pdb
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.csproj.CopyComplete
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.dll
+C:\Users\Dell\source\repos\Consultas\Capa_Controlador\obj\Debug\Capa_ControladorConsultas.pdb
