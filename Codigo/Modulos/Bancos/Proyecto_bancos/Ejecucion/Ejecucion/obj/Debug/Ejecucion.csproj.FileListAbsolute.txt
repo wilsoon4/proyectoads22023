@@ -1,0 +1,30 @@
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaVistaBancos.dll
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaVistaBancos.pdb
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
+C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaVistaBancos.dll
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaVistaBancos.pdb
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaVistaNav.dll
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaControladorNav.dll
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaModeloNav.dll
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaVistaNav.pdb
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaControladorNav.pdb
+C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\bin\Debug\CapaModeloNav.pdb

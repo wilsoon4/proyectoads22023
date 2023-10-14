@@ -1,0 +1,11 @@
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\bin\Debug\Autorización Ordenes de compras.dll
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\bin\Debug\Autorización Ordenes de compras.pdb
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\obj\Debug\Autorización Ordenes de compras.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\obj\Debug\Autorización Ordenes de compras.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\obj\Debug\Autorización Ordenes de compras.dll
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\obj\Debug\Autorización Ordenes de compras.pdb
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\bin\Debug\CapaControlador.dll
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\bin\Debug\CapaControlador.pdb
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\obj\Debug\Autorización_Ordenes_de_compras.Form1.resources
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\obj\Debug\Autorización Ordenes de compras.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\Autorización Ordenes de compras\obj\Debug\Autorización Ordenes de compras.csproj.CopyComplete

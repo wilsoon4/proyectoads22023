@@ -40,21 +40,5 @@ namespace Prototipo_inicial_nav
         {
 
         }
-
-        private void integrante2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmIntegrante2 formIntegrante2 = new frmIntegrante2();
-            formIntegrante2.MdiParent = this;
-            formIntegrante2.Show();
-        }
-
-        private void integrante4ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-            frmintegrante4 formIntegrante2 = new frmintegrante4();
-            formIntegrante2.MdiParent = this;
-            formIntegrante2.Show();
-
-        }
     }
 }

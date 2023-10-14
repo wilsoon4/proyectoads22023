@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaModelo\obj\Debug\CapaModelo.pdb

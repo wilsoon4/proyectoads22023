@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaVista\bin\Debug\CapaVista.dll
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaVista\bin\Debug\CapaVista.pdb
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaVista\obj\Debug\CapaVista.Form1.resources
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaVista\obj\Debug\CapaVista.dll
+C:\Users\DELL\source\repos\Autorización Ordenes de compras\CapaVista\obj\Debug\CapaVista.pdb
