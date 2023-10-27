@@ -12,7 +12,7 @@ namespace CapaVista.Componentes.Utilidades
     public class utilidadesConsultasI
     {
         public Controlador ctrl;
-        public string tabla = "andrea";
+        public string tabla = "";
         DataGridViewRow selected = new DataGridViewRow();
         public utilidadesConsultasI()
         {
@@ -62,6 +62,7 @@ namespace CapaVista.Componentes.Utilidades
                 }
                 else if (c is ComboBox)
                 {
+                    if (c.Tag == null) continue;
                     string tag = c.Tag.ToString();
                     if (columns.Contains(tag))
                     {
@@ -71,13 +72,13 @@ namespace CapaVista.Componentes.Utilidades
                 }
             }
             ctriv.setTabla(this.tabla);
-            if (dictionary.Count != columns.Count)
+            /*if (dictionary.Count != columns.Count)
             {
                 MessageBox.Show("No todos los campos necesarios para la insercion han sido colocados, verifique sus campos para poder realizar la insercion");
                 return;
-            }
+            }*/
             ctriv.guardar(dictionary);
-            MessageBox.Show("INVENTARIO GUARDADO");
+            MessageBox.Show("GUARDADO");
         }
 
 
@@ -109,19 +110,6 @@ namespace CapaVista.Componentes.Utilidades
                     try
                     {
                         ((DataGridView)c).DataSource = ctriv.refrescar();
-                        refrescadoExitosamente = true; // Si no hubo excepción, se refrescó con éxito
-                    }
-                    catch (Exception ex) // Captura el error
-                    {
-                        // Si llegamos aquí, ocurrió un error durante el refrescamiento
-                        MessageBox.Show("Error al refrescar. Detalles: " + ex.Message);
-                    }
-                }else if(c is ComboBox)
-                {
-                    try
-                    {
-                        ((ComboBox)c).DataSource = ctriv.refrescar();
-                        MessageBox.Show("Refrescado");
                         refrescadoExitosamente = true; // Si no hubo excepción, se refrescó con éxito
                     }
                     catch (Exception ex) // Captura el error

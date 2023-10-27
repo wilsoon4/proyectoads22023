@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CapaVistaBancos
@@ -18,6 +11,16 @@ namespace CapaVistaBancos
         }
 
         private void Con_bancaria_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_salir_dispo_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }

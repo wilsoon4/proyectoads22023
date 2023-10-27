@@ -1,48 +1,14 @@
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaVistaBancos.dll
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaVistaBancos.pdb
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.AssemblyReference.cache
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.CoreCompileInputs.cache
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.dll
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.pdb
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaControladorBancos.dll
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaControladorBancos.pdb
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.CopyComplete
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Menu_inicial.resources
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.GenerateResource.cache
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaVistaBancos.dll
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaVistaBancos.pdb
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.AssemblyReference.cache
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Menu_inicial.resources
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.GenerateResource.cache
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.CoreCompileInputs.cache
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.dll
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.pdb
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaControladorBancos.dll
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaControladorBancos.pdb
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.CopyComplete
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.agregar_cuenta.resources
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.tipoMov.resources
-C:\Users\Luis\Desktop\8vo semestre\Analisis 2\bancos\Bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mov_bancarios.resources
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.AssemblyReference.cache
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Con_bancaria.resources
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_Agregar_Bancos.resources
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_agregar_cuenta.resources
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_OrdenesdeCompra.resources
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Menu_inicial.resources
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mov_bancarios.resources
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_tipoMov.resources
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.GenerateResource.cache
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.CoreCompileInputs.cache
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.dll
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.pdb
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaVistaBancos.dll
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaVistaBancos.pdb
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaControladorBancos.dll
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaVistaNav.dll
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaControladorNav.dll
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaModeloNav.dll
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaControladorBancos.pdb
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaVistaNav.pdb
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaControladorNav.pdb
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\CapaModeloNav.pdb
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.CopyComplete
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Con_bancaria.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Dispo_diaria.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Tipo_cambio.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_Agregar_Bancos.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_agregar_cuenta.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_OrdenesdeCompra.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Menu_inicial.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mov_bancarios.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_tipoMov.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Ordenes_compra.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Properties.Resources.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.CoreCompileInputs.cache

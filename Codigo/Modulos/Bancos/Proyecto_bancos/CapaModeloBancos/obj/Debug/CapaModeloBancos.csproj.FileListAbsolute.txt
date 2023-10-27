@@ -1,12 +1,6 @@
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaModeloBancos\bin\Debug\CapaModeloBancos.dll
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaModeloBancos\bin\Debug\CapaModeloBancos.pdb
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.csproj.AssemblyReference.cache
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.csproj.CoreCompileInputs.cache
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.dll
-C:\Users\Luis\source\repos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.pdb
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\bin\Debug\CapaModeloBancos.dll
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\bin\Debug\CapaModeloBancos.pdb
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.csproj.AssemblyReference.cache
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.csproj.CoreCompileInputs.cache
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.dll
-C:\Users\PC\Desktop\MOD BANCOS\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.pdb
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\bin\Debug\CapaModeloBancos.dll
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\bin\Debug\CapaModeloBancos.pdb
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.dll
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaModeloBancos\obj\Debug\CapaModeloBancos.pdb
