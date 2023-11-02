@@ -4,17 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<<< HEAD:Codigo/Modulos/Bancos/Proyecto_bancos/Ejecucion/Ejecucion/Ejecucion.csproj
     <ProjectGuid>{ADD6FFAD-47D7-47BB-AA36-67DE1D01C006}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Ejecucion</RootNamespace>
     <AssemblyName>Ejecucion</AssemblyName>
-========
-    <ProjectGuid>{9AFE6CED-BCB9-4FE2-BC7A-DF8857AC2CDC}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>Ejecucion_MDI_Logistica</RootNamespace>
-    <AssemblyName>Ejecucion_MDI_Logistica</AssemblyName>
->>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c:Codigo/Modulos/Logistica/Ejecucion_MDI_Logistica/Ejecucion_MDI_Logistica/Ejecucion_MDI_Logistica.csproj
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -40,14 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<<< HEAD:Codigo/Modulos/Bancos/Proyecto_bancos/Ejecucion/Ejecucion/Ejecucion.csproj
     <Reference Include="CapaVistaBancos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\CapaVistaBancos\bin\Debug\CapaVistaBancos.dll</HintPath>
-========
-    <Reference Include="CapaVistaLI">
-      <HintPath>..\..\ModuloLI\CapaVistaLI\bin\Debug\CapaVistaLI.dll</HintPath>
->>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c:Codigo/Modulos/Logistica/Ejecucion_MDI_Logistica/Ejecucion_MDI_Logistica/Ejecucion_MDI_Logistica.csproj
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -62,15 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<<< HEAD:Codigo/Modulos/Bancos/Proyecto_bancos/Ejecucion/Ejecucion/Ejecucion.csproj
-========
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
->>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c:Codigo/Modulos/Logistica/Ejecucion_MDI_Logistica/Ejecucion_MDI_Logistica/Ejecucion_MDI_Logistica.csproj
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

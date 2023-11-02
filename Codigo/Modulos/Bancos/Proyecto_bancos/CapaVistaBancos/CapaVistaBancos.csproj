@@ -117,11 +117,7 @@
     <Compile Include="Con_bancaria.Designer.cs">
       <DependentUpon>Con_bancaria.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="negocios.cs" />
-=======
-    <Compile Include="negocios1.cs" />
->>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

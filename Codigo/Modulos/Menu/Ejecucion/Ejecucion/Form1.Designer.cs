@@ -1,9 +1,5 @@
 ﻿
-<<<<<<<< HEAD:Codigo/Modulos/Menu/Ejecucion/Ejecucion/Form1.Designer.cs
 namespace Ejecucion
-========
-namespace Ejecucion_MDI_Logistica
->>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c:Codigo/Modulos/Logistica/Ejecucion_MDI_Logistica/Ejecucion_MDI_Logistica/Form1.Designer.cs
 {
     partial class Form1
     {
