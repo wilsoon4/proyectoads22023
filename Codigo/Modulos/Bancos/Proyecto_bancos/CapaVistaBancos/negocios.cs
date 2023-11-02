@@ -10,8 +10,14 @@ using CapaControladorBancos;
 
 namespace CapaVistaBancos
 {
+<<<<<<< HEAD
     public class negocios
     {
+=======
+   public class negocios
+    {
+
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
         public static string noCuenta1;
         public static string noCuenta2;
         public static string tMoneda;
@@ -23,6 +29,7 @@ namespace CapaVistaBancos
         public static double VMoneda;
         string no_form = "5004";
 
+<<<<<<< HEAD
         public static void ObtenerID(string banco)
         {
             string ban;
@@ -83,11 +90,67 @@ namespace CapaVistaBancos
                 DataRow row = dtS.Rows[0]; //Inicializa columnas en la DataTable
                 negocios.banconom = Convert.ToString(row["idBanco"]);
                 // MessageBox.Show("La moneda de la cuenta " + noCuen + " es " + tMoneda); // Mensaje de prueba de funcionamiento
+=======
+        public static void tipodecompra1(string tipodecompra)
+        {
+            string ban;
+            DataTable dts = ControladorBanco.Tipodecompras(tipodecompra);
+            if (dts.Rows.Count > 0)
+            {
+                DataRow row = dts.Rows[0];
+                ban = Convert.ToString(row["cori_tipo_de_compra"]);
+                negocios.bancoN = ban;
+            }
+        }
+
+        public static void ObtenerIdBanco(String noCuenta)
+        {
+            string nombreBanco;
+            DataTable dtS = ControladorBanco.ObtenertMoneda1(noCuenta);
+            if (dtS.Rows.Count > 0)
+            {
+                DataRow row = dtS.Rows[0];
+                nombreBanco = Convert.ToString(row["fk_cori_tipo_de_moneda"]);
+                negocios.nomBanco = nombreBanco;
+            }
+        }
+
+        public static void ObtenerSaldo(String noCuen)
+        {
+            string saldoCuenta;
+            DataTable dtS = ControladorBanco.ObtenerSaldo(noCuen);
+            if (dtS.Rows.Count > 0)
+            {
+                DataRow row = dtS.Rows[0];
+                saldoCuenta = Convert.ToString(row["cori_monto"]);
+                saldo = Convert.ToDouble(saldoCuenta);
+            }
+        }
+
+        public static void ObtenertMoneda1(String noCuen)
+        {
+            DataTable dtS = Controladorbanco.ObtenertMoneda1(noCuen);
+            if (dtS.Rows.Count > 0)
+            {
+                DataRow row = dtS.Rows[0];
+                negocios.tMoneda = Convert.ToString(row["fk_cori_tipo_de_moneda"]);
+            }
+        }
+
+        public static void ObtenerBancoCuenta(String noCuen)
+        {
+            DataTable dtS = ControladorBanco.ObtenertMoneda1(noCuen);
+            if (dtS.Rows.Count > 0)
+            {
+                DataRow row = dtS.Rows[0];
+                negocios.banconom = Convert.ToString(row["fk_cori_tipo_de_moneda"]);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             }
         }
 
         public static void ObtenerValorM(string moneda)
         {
+<<<<<<< HEAD
             string ValorM;
             DataTable dtS = ControladorBanco.ObtenerSaldo(moneda);  //Crear una DataTable donde guarda el resultado de ObtenerID
             if (dtS.Rows.Count > 0) //Inicializa columnas en la DataTable
@@ -101,10 +164,24 @@ namespace CapaVistaBancos
 
 
         public static void TraspasoSaldo(string noCuenO, string noCuenD, double saldoO, double saldoD, double traslado)
+=======
+            string valorMoneda;
+            DataTable dtS = ControladorBanco.ValorM(moneda);
+            if (dtS.Rows.Count > 0)
+            {
+                DataRow row = dtS.Rows[0];
+                valorMoneda = Convert.ToString(row["cdes_valor_de_compra"]);
+                VMoneda = Convert.ToDouble(valorMoneda);
+            }
+        }
+
+        public static void TraspasoSaldo(String noCuenO, String noCuenD, double saldoO, double saldoD, double traslado)
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
         {
             double NuevoSaldoO;
             double NuevoSaldoD;
             string tmonedaO, tmonedaD;
+<<<<<<< HEAD
             negocios.ObtenertMoneda(noCuenO);//Obtenemos el tipo de moneda del no. de cuenta de Origen
             tmonedaO = negocios.tMoneda;  //Establece la variable con el valor de la moneda para poder reutilizar el metodo posteriormente
             negocios.ObtenertMoneda(noCuenD); //Obtenemos el tipo de moneda del no. de cuenta Destino
@@ -113,10 +190,21 @@ namespace CapaVistaBancos
             if (saldoO < traslado)
             {
                 MessageBox.Show("El saldo de la cuenta" + noCuenO + " es menor a la transaccion, COMPRA NO AUTORIZADA");//Validacion de saldo insuficiente
+=======
+            negocios.ObtenertMoneda1(noCuenO);
+            tmonedaO = negocios.tMoneda;
+            negocios.ObtenertMoneda1(noCuenD);
+            tmonedaD = negocios.tMoneda;
+
+            if (saldoO < traslado)
+            {
+                MessageBox.Show("El saldo de la cuenta " + noCuenO + " es menor a la transacción, COMPRA NO AUTORIZADA");
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             }
             else
             {
                 if (tmonedaO == tmonedaD)
+<<<<<<< HEAD
                 {  //Calculo nuevo saldo de origen
                     NuevoSaldoO = saldoO - traslado;
                     ControladorBanco.trasladoS(noCuenO, NuevoSaldoO);
@@ -132,11 +220,27 @@ namespace CapaVistaBancos
                     MessageBox.Show("La cuenta de origen esta en quetzales, se realizara la conversion a dolares");
                     double valor, conver;
                     //Calculo nuevo saldo de origen
+=======
+                {
+                    NuevoSaldoO = saldoO - traslado;
+                    ControladorBanco.trasladoS(noCuenO, NuevoSaldoO);
+
+                    NuevoSaldoD = saldoD + traslado;
+                    ControladorBanco.trasladoS(noCuenD, NuevoSaldoD);
+
+                    MessageBox.Show("COMPRA AUTORIZADA");
+                }
+                else if ((tmonedaO == "Quetzales" || tmonedaO == "quetzales") && (tmonedaD == "Dolares" || tmonedaD == "dolares"))
+                {
+                    MessageBox.Show("La cuenta de origen está en quetzales, se realizará la conversión a dólares");
+                    double valor, conver;
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
                     negocios.ObtenerValorM(tmonedaD);
                     valor = 7.34;
                     conver = traslado * valor;
                     if (saldoO < conver)
                     {
+<<<<<<< HEAD
                         MessageBox.Show("El saldo de la cuenta" + noCuenO + " es menor a la transaccion, COMPRA NO AUTORIZADA");
                     }
                     else
@@ -185,3 +289,13 @@ namespace CapaVistaBancos
 
     }
 }
+=======
+                        MessageBox.Show("El saldo de la cuenta " + noCuenO + " es menor a la transacción, COMPRA NO AUTORIZ");
+                    }
+                }
+            }
+        }
+    }
+}
+
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c

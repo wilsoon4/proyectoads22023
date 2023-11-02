@@ -29,7 +29,10 @@ namespace CapaVistaBancos
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.btn_salir_dispo = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -55,7 +58,10 @@ namespace CapaVistaBancos
             this.txt_traslado = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -76,17 +82,28 @@ namespace CapaVistaBancos
             this.btn_salir_dispo.Text = "Salir";
             this.btn_salir_dispo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_salir_dispo.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(712, 467);
+=======
+
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(730, 378);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 93;
             this.button1.Text = "Denegar";
             this.button1.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.button1.Click += new System.EventHandler(this.button1_Click_2);
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             // 
             // groupBox1
             // 
@@ -98,7 +115,11 @@ namespace CapaVistaBancos
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBox4);
+<<<<<<< HEAD
             this.groupBox1.Location = new System.Drawing.Point(466, 289);
+=======
+            this.groupBox1.Location = new System.Drawing.Point(484, 200);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
@@ -192,7 +213,11 @@ namespace CapaVistaBancos
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.textBox1);
+<<<<<<< HEAD
             this.groupBox2.Location = new System.Drawing.Point(87, 289);
+=======
+            this.groupBox2.Location = new System.Drawing.Point(105, 200);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
@@ -279,7 +304,11 @@ namespace CapaVistaBancos
             // label3
             // 
             this.label3.AutoSize = true;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(745, 528);
+=======
+            this.label3.Location = new System.Drawing.Point(763, 439);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 17);
@@ -288,18 +317,29 @@ namespace CapaVistaBancos
             // 
             // button4
             // 
+<<<<<<< HEAD
             this.button4.Location = new System.Drawing.Point(589, 466);
+=======
+            this.button4.Location = new System.Drawing.Point(607, 377);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 28);
             this.button4.TabIndex = 89;
             this.button4.Text = "Autorizar";
             this.button4.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.button4.Click += new System.EventHandler(this.button4_Click_2);
             // 
             // txt_traslado
             // 
             this.txt_traslado.Location = new System.Drawing.Point(404, 472);
+=======
+            // 
+            // txt_traslado
+            // 
+            this.txt_traslado.Location = new System.Drawing.Point(422, 383);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.txt_traslado.Margin = new System.Windows.Forms.Padding(4);
             this.txt_traslado.Name = "txt_traslado";
             this.txt_traslado.Size = new System.Drawing.Size(132, 22);
@@ -308,7 +348,11 @@ namespace CapaVistaBancos
             // label4
             // 
             this.label4.AutoSize = true;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(239, 473);
+=======
+            this.label4.Location = new System.Drawing.Point(257, 384);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(135, 17);
@@ -317,7 +361,11 @@ namespace CapaVistaBancos
             // 
             // button6
             // 
+<<<<<<< HEAD
             this.button6.Location = new System.Drawing.Point(99, 458);
+=======
+            this.button6.Location = new System.Drawing.Point(117, 369);
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(105, 46);
@@ -381,6 +429,9 @@ namespace CapaVistaBancos
         private System.Windows.Forms.TextBox txt_traslado;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button6;
+<<<<<<< HEAD
         private System.Windows.Forms.Timer timer1;
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
     }
 }

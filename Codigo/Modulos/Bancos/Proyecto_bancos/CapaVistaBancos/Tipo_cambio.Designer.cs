@@ -112,7 +112,10 @@ namespace CapaVistaBancos
             this.button2.TabIndex = 89;
             this.button2.Text = "Actualizar";
             this.button2.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.button2.Click += new System.EventHandler(this.button2_Click);
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
             // 
             // label2
             // 

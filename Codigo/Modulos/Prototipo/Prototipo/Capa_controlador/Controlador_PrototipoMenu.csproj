@@ -34,10 +34,13 @@
     <Reference Include="eCryptography, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Eramake.eCryptography.1.1.6\lib\net45\eCryptography.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Modelo_PrototipoMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Modelo\bin\Debug\Modelo_PrototipoMenu.dll</HintPath>
     </Reference>
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />

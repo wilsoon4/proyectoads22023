@@ -1,4 +1,5 @@
 ﻿using System;
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,18 +10,25 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using CapaControladorBancos;
+=======
+using System.Windows.Forms;
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
 
 namespace CapaVistaBancos
 {
     public partial class Con_bancaria : Form
     {
+<<<<<<< HEAD
         ControladorBanco cn = new ControladorBanco();
         string mov = "tbl_movimientosbancarios";
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
         public Con_bancaria()
         {
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         public void actualizardatagridView()
         {
             DataTable dt = cn.llenarTbl(mov);
@@ -33,6 +41,8 @@ namespace CapaVistaBancos
             dt.Rows.Clear();
             dgv_movimientos_conciliacion.Refresh();
         }
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
         private void Con_bancaria_Load(object sender, EventArgs e)
         {
 
@@ -47,6 +57,7 @@ namespace CapaVistaBancos
         {
 
         }
+<<<<<<< HEAD
 
         private void btn_asignar_Click(object sender, EventArgs e)
         {
@@ -164,5 +175,7 @@ namespace CapaVistaBancos
         {
             Deshabilitar();
         }
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
     }
 }

@@ -1,0 +1,3 @@
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\labo analisis\proyectoads22023\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache

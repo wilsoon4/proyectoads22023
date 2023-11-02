@@ -273,6 +273,7 @@ namespace Vista_PrototipoMenu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap prototipo {
             get {
                 object obj = ResourceManager.GetObject("prototipo", resourceCulture);
@@ -303,6 +304,8 @@ namespace Vista_PrototipoMenu.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+=======
+>>>>>>> d134d46b27d24029392750d003c6bd5ccf8e587c
         internal static System.Drawing.Bitmap rabit {
             get {
                 object obj = ResourceManager.GetObject("rabit", resourceCulture);
