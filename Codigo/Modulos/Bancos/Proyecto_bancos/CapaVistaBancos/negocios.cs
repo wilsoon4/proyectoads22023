@@ -26,7 +26,7 @@ namespace CapaVistaBancos
         public static void ObtenerID(string banco)
         {
             string ban;
-            DataTable dtB = ControladorBancos.ObtenerIdBanco(banco); //Crear una DataTable donde guarda el resultado de ObtenerID
+            DataTable dtB = ControladorBanco.ObtenerIdBanco(banco); //Crear una DataTable donde guarda el resultado de ObtenerID
             if (dtB.Rows.Count > 0) //Si la tabla tiene alguna columna
             {
                 DataRow row = dtB.Rows[0]; //Inicializa columnas en la DataTable

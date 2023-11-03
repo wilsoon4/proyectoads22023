@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using CapaControladorBancos;
+
 namespace CapaVistaBancos
 {
     public partial class Ordenes_compra : Form
