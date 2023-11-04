@@ -106,6 +106,7 @@ namespace CapaVistaBancos
             this.groupBox1.TabIndex = 92;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cuenta Destino";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
             // lbl_nBancoD
             // 
@@ -200,6 +201,7 @@ namespace CapaVistaBancos
             this.groupBox2.TabIndex = 91;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cuenta Origen";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter_2);
             // 
             // lbl_nBancoO
             // 
@@ -285,6 +287,7 @@ namespace CapaVistaBancos
             this.label3.Size = new System.Drawing.Size(119, 17);
             this.label3.TabIndex = 90;
             this.label3.Text = "Submodulo: 5400";
+            this.label3.Click += new System.EventHandler(this.label3_Click_2);
             // 
             // button4
             // 
@@ -304,6 +307,7 @@ namespace CapaVistaBancos
             this.txt_traslado.Name = "txt_traslado";
             this.txt_traslado.Size = new System.Drawing.Size(132, 22);
             this.txt_traslado.TabIndex = 88;
+            this.txt_traslado.TextChanged += new System.EventHandler(this.txt_traslado_TextChanged_1);
             // 
             // label4
             // 
@@ -314,6 +318,7 @@ namespace CapaVistaBancos
             this.label4.Size = new System.Drawing.Size(135, 17);
             this.label4.TabIndex = 87;
             this.label4.Text = "Valor de la compra: ";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
             // button6
             // 

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 using CapaControladorBancos;
-
 namespace CapaVistaBancos
 {
     public partial class Ordenes_compra : Form
@@ -213,6 +212,31 @@ namespace CapaVistaBancos
             lbl_nBancoO.Text = "";
             textBox1.Text = "";
             textBox4.Text = "";
+        }
+
+        private void groupBox1_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_traslado_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

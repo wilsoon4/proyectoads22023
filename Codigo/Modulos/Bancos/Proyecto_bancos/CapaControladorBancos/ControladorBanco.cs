@@ -28,7 +28,8 @@ namespace CapaControladorBancos
             return sentencias.llenarTbl(tabla);
         }
 
-        
+        public class Controlador
+        {
             string no_form = "5004";
         public static OdbcConnection ObtenerConexion()
         {
@@ -151,4 +152,4 @@ namespace CapaControladorBancos
         }
     }
 }
-
+}
