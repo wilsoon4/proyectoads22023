@@ -157,7 +157,7 @@ namespace CapaVistaBancos
                     }
                     else if ((tmonedaO == "Dolares" || tmonedaO == "dolares") && (tmonedaD == "Quetzales" || tmonedaD == "quetzales"))//Verificacion de tipos de moneda
                     {
-                    ControladorBanco.Show("La cuenta de origen esta en dolares, se realizara la conversion a quetzales");
+                    MessageBox.Show("La cuenta de origen esta en dolares, se realizara la conversion a quetzales");
                         double valor, conver;
                         //Calculo nuevo saldo de origen
                         negocios.ObtenerValorM(tmonedaO);//Funcion para obtener el valor del la moneda AUN NO FUNCIONAL

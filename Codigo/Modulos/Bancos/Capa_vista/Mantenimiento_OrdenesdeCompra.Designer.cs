@@ -249,6 +249,7 @@ namespace Vista_PrototipoMenu
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(765, 187);
             this.navegador1.TabIndex = 121;
+            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
             // Mantenimiento_OrdenesdeCompra
             // 

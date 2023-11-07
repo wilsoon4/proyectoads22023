@@ -1,4 +1,4 @@
-﻿
+﻿using NavegadorVista;
 namespace Vista_PrototipoMenu
 {
     partial class Mantenimiento_tipoMov
