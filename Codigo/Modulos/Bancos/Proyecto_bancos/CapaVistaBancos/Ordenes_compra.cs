@@ -10,43 +10,6 @@ namespace CapaVistaBancos
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-
         private void button3_Click(object sender, EventArgs e)
         {
 
@@ -63,17 +26,70 @@ namespace CapaVistaBancos
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
 
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        public void Habilitador_timer()
+        {
+            timer1.Interval = 50400000;
+            timer1.Enabled = true;
+            // Hook up timer's tick event handler.
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            ControladorBanco.actualizacion_saldos();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            negocios.ObtenerValorM("Dolares"); //Prueba de funcion Obtener ValorM   AUN NO FUNCIONAL
+            MessageBox.Show("Valor: " + negocios.VMoneda); //Muestra valor moneda AUN NO FUNCIONAL
+
+        }
+
+
+
+      
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_traslado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
         {
             // string nBancoO;
             string noCuentaO = textBox1.Text;
@@ -103,67 +119,9 @@ namespace CapaVistaBancos
             lbl_nBancoD.Text = negocios.bancoN;
 
 
-
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        public void Habilitador_timer()
-        {
-            timer1.Interval = 50400000;
-            timer1.Enabled = true;
-            // Hook up timer's tick event handler.
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            ControladorBanco.actualizacion_saldos();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            negocios.ObtenerValorM("Dolares"); //Prueba de funcion Obtener ValorM   AUN NO FUNCIONAL
-            MessageBox.Show("Valor: " + negocios.VMoneda); //Muestra valor moneda AUN NO FUNCIONAL
-
-        }
-
-
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txt_traslado_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click_2(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             //Datos de origen/////////////////////////////////////////////////
 
@@ -202,7 +160,7 @@ namespace CapaVistaBancos
             lbl_tMonedaD.Text = negocios.tMoneda;
         }
 
-        private void button1_Click_2(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             lbl_SaldoD.Text = "";
             lbl_tMonedaD.Text = "";
@@ -214,29 +172,10 @@ namespace CapaVistaBancos
             textBox4.Text = "";
         }
 
-        private void groupBox1_Enter_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txt_traslado_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click_1(object sender, EventArgs e)
+        private void btn_salir_dispo_Click(object sender, EventArgs e)
         {
 
         }
     }
 }
+

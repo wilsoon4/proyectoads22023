@@ -10,5 +10,8 @@ C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Mod
 C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Mantenimiento_tipoMov.resources
 C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Ordenes_compra.resources
 C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.Properties.Resources.resources
+C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.verbanco.resources
+C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.vermoneda.resources
+C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.vertransaccion.resources
 C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.GenerateResource.cache
 C:\Users\DELL\Desktop\labo analisis\banco\modulo_bancos\modulo_bancos\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\obj\Debug\CapaVistaBancos.csproj.CoreCompileInputs.cache

@@ -7,13 +7,20 @@ using System.Data;
 using CapaModeloBancos;
 using System.Data.Odbc;
 
-
 namespace CapaControladorBancos
 {
     public class ControladorBanco
     {
         private SentenciasBanco sentencias ;
 
+        public void InsertarTipoMoneda(string TipoMoneda, string ValorMoneda, string estado)
+        {
+            sentencias.InsertarTipoMoneda(TipoMoneda, ValorMoneda, estado);
+        }
+        public DataTable llenarTblMoneda(string tabla)
+        {
+            return sentencias.llenarTblMoneda(tabla);
+        }
         public ControladorBanco()
         {
             sentencias = new SentenciasBanco();
@@ -28,13 +35,10 @@ namespace CapaControladorBancos
             return sentencias.llenarTbl(tabla);
         }
 
-        public class Controlador
-        {
-            string no_form = "5004";
         public static OdbcConnection ObtenerConexion()
         {
             // Cadena de conexión ODBC
-            string connectionString = "DSN=hotelfase";
+            string connectionString = "DSN=hotelssse";
 
             OdbcConnection conectar = new OdbcConnection(connectionString);
 
@@ -46,12 +50,12 @@ namespace CapaControladorBancos
         {
             DataTable dt = new DataTable();
 
-            string consulta = "SELECT nombre FROM banco WHERE idBanco = ?"; // Consulta
+            string consulta = "SELECT cori_tipo_de_compra FROM tbl_compra WHERE cdes_id_compra = ?"; // Consulta
 
             using (OdbcConnection connection = ObtenerConexion())
             using (OdbcCommand comandoB = new OdbcCommand(consulta, connection))
             {
-                comandoB.Parameters.AddWithValue("Banco", Banco); // Agrega los parámetros a la consulta
+                comandoB.Parameters.AddWithValue("cori_tipo_de_compra", Banco); // Agrega los parámetros a la consulta
                 OdbcDataAdapter adap = new OdbcDataAdapter(comandoB); // Adaptador
                 adap.Fill(dt); // Llena la datatable con el adaptador del comando
             }
@@ -63,12 +67,12 @@ namespace CapaControladorBancos
         {
             DataTable dt = new DataTable();
 
-            string consulta = "SELECT idBanco FROM cuentabanco WHERE noCuenta = ?"; // Consulta
+            string consulta = "SELECT cdes_id_compra FROM tbl_cuentabanco WHERE cori_noCuenta = ?"; // Consulta
 
             using (OdbcConnection connection = ObtenerConexion())
             using (OdbcCommand comando = new OdbcCommand(consulta, connection))
             {
-                comando.Parameters.AddWithValue("noCuenta", noCuenta); // Parámetros que se agregan a la consulta
+                comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
                 OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
                 adap.Fill(dt); // Llena la datatable con el adaptador del comando
             }
@@ -80,12 +84,12 @@ namespace CapaControladorBancos
         {
             DataTable dt = new DataTable();
 
-            string consulta = "SELECT saldoDisponible FROM cuentabanco, banco WHERE cuentabanco.noCuenta = ? AND banco.idBanco = cuentabanco.idBanco;"; // Consulta
+            string consulta = "SELECT cdes_saldoDisponible FROM tbl_cuentabanco, tbl_compra WHERE tbl_cuentabanco.cori_noCuenta = ? AND tbl_compra.cdes_id_compra = tbl_cuentabanco.cdes_id_compra;"; // Consulta
 
             using (OdbcConnection connection = ObtenerConexion())
             using (OdbcCommand comando = new OdbcCommand(consulta, connection))
             {
-                comando.Parameters.AddWithValue("noCuenta", noCuenta); // Parámetros que se agregan a la consulta
+                comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
                 OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
                 adap.Fill(dt); // Llena la datatable con el adaptador del comando
             }
@@ -97,12 +101,12 @@ namespace CapaControladorBancos
         {
             DataTable dt = new DataTable();
 
-            string consulta = "SELECT tipoMoneda FROM cuentabanco, banco WHERE cuentabanco.noCuenta = ? AND banco.idBanco = cuentabanco.idBanco;"; // Consulta
+            string consulta = "SELECT fk_cori_tipo_de_moneda FROM tbl_cuentabanco, tbl_compra WHERE tbl_cuentabanco.cori_noCuenta = ? AND tbl_compra.cdes_id_compra = tbl_cuentabanco.cdes_id_compra;"; // Consulta
 
             using (OdbcConnection connection = ObtenerConexion())
             using (OdbcCommand comando = new OdbcCommand(consulta, connection))
             {
-                comando.Parameters.AddWithValue("noCuenta", noCuenta); // Parámetros que se agregan a la consulta
+                comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
                 OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
                 adap.Fill(dt); // Llena la datatable con el adaptador del comando
             }
@@ -114,12 +118,12 @@ namespace CapaControladorBancos
         {
             DataTable dt = new DataTable();
 
-            string consulta = "SELECT valor FROM moneda WHERE moneda.moneda = ?"; // Consulta
+            string consulta = "SELECT cori_valor FROM tbl_moneda WHERE tbl_moneda.tbl_moneda = ?"; // Consulta
 
             using (OdbcConnection connection = ObtenerConexion())
             using (OdbcCommand comando = new OdbcCommand(consulta, connection))
             {
-                comando.Parameters.AddWithValue("nombre", moneda); // Parámetros que se agregan a la consulta
+                comando.Parameters.AddWithValue("cori_nombre", moneda); // Parámetros que se agregan a la consulta
                 OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
                 adap.Fill(dt); // Llena la datatable con el adaptador del comando
             }
@@ -129,20 +133,20 @@ namespace CapaControladorBancos
 
         public static void trasladoS(string noCuenta, double saldo)
         {
-            string updateQuery = "UPDATE cuentabanco SET saldoDisponible = ? WHERE cuentabanco.noCuenta = ?"; // Consulta
+            string updateQuery = "UPDATE tbl_cuentabanco SET cdes_saldoDisponible = ? WHERE tbl_cuentabanco.cori_noCuenta = ?"; // Consulta
 
             using (OdbcConnection connection = ObtenerConexion())
             using (OdbcCommand comando = new OdbcCommand(updateQuery, connection))
             {
                 comando.Parameters.AddWithValue("saldo", saldo); // Parámetros que se agregan a la consulta
-                comando.Parameters.AddWithValue("noCuenta", noCuenta); // Parámetros que se agregan a la consulta
+                comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
                 comando.ExecuteNonQuery(); // Ejecución del query para realizar la actualización
             }
         }
 
         public static void actualizacion_saldos()
         {
-            string updateQuery = "UPDATE cuentabanco SET saldoActual = saldoDisponible;"; // Consulta
+            string updateQuery = "UPDATE tbl_cuentabanco SET cdes_saldoActual = cdes_saldoDisponible;"; // Consulta
 
             using (OdbcConnection connection = ObtenerConexion())
             using (OdbcCommand comando = new OdbcCommand(updateQuery, connection))
@@ -152,4 +156,4 @@ namespace CapaControladorBancos
         }
     }
 }
-}
+

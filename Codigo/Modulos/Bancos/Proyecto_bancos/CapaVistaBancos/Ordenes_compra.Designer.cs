@@ -76,17 +76,18 @@ namespace CapaVistaBancos
             this.btn_salir_dispo.Text = "Salir";
             this.btn_salir_dispo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_salir_dispo.UseVisualStyleBackColor = false;
+            this.btn_salir_dispo.Click += new System.EventHandler(this.btn_salir_dispo_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(712, 467);
+            this.button1.Location = new System.Drawing.Point(741, 433);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 93;
             this.button1.Text = "Denegar";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // groupBox1
             // 
@@ -98,7 +99,7 @@ namespace CapaVistaBancos
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Location = new System.Drawing.Point(466, 289);
+            this.groupBox1.Location = new System.Drawing.Point(495, 255);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
@@ -106,7 +107,6 @@ namespace CapaVistaBancos
             this.groupBox1.TabIndex = 92;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cuenta Destino";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
             // lbl_nBancoD
             // 
@@ -193,7 +193,7 @@ namespace CapaVistaBancos
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Location = new System.Drawing.Point(87, 289);
+            this.groupBox2.Location = new System.Drawing.Point(116, 255);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
@@ -201,7 +201,6 @@ namespace CapaVistaBancos
             this.groupBox2.TabIndex = 91;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cuenta Origen";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter_2);
             // 
             // lbl_nBancoO
             // 
@@ -281,55 +280,52 @@ namespace CapaVistaBancos
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(745, 528);
+            this.label3.Location = new System.Drawing.Point(774, 494);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 17);
             this.label3.TabIndex = 90;
             this.label3.Text = "Submodulo: 5400";
-            this.label3.Click += new System.EventHandler(this.label3_Click_2);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(589, 466);
+            this.button4.Location = new System.Drawing.Point(618, 432);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 28);
             this.button4.TabIndex = 89;
             this.button4.Text = "Autorizar";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_2);
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // txt_traslado
             // 
-            this.txt_traslado.Location = new System.Drawing.Point(404, 472);
+            this.txt_traslado.Location = new System.Drawing.Point(433, 438);
             this.txt_traslado.Margin = new System.Windows.Forms.Padding(4);
             this.txt_traslado.Name = "txt_traslado";
             this.txt_traslado.Size = new System.Drawing.Size(132, 22);
             this.txt_traslado.TabIndex = 88;
-            this.txt_traslado.TextChanged += new System.EventHandler(this.txt_traslado_TextChanged_1);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(239, 473);
+            this.label4.Location = new System.Drawing.Point(268, 439);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(135, 17);
             this.label4.TabIndex = 87;
             this.label4.Text = "Valor de la compra: ";
-            this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(99, 458);
+            this.button6.Location = new System.Drawing.Point(128, 424);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(105, 46);
             this.button6.TabIndex = 86;
             this.button6.Text = "Pre-visualizar saldos";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // Ordenes_compra
             // 
