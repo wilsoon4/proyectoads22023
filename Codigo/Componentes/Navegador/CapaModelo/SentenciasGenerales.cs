@@ -12,11 +12,10 @@ namespace CapaModelo
     public class SentenciasGenerales
     {
         protected Conexion conn;
-        private static string baseDatos = "";
+        private static string baseDatos = "bd_navegador";
         public SentenciasGenerales()
         {
             this.conn = new Conexion();
-            baseDatos = this.conn.connection().Database;
         }
 
         public string getColumnsQuery(Dictionary<string, string> parameters, List<string> columns)
