@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.Odbc;
 
-
-
 namespace Modelo_BancoMenu
 {
+    
     class SentenciasBancos
     {
         private ConexionBanco con = new ConexionBanco();
+
 
         public void InsertarMovimiento(string valorMovimiento, string descripcionMovimiento, string numCuenta, string tipoTransaccion, string estado)
         {
@@ -34,6 +34,7 @@ namespace Modelo_BancoMenu
                                 cmd.Parameters.AddWithValue("@movban_status", estado);
                                 cmd.Parameters.AddWithValue("@movban_fecha_de_ingreso", DateTime.Now);
 
+
                                 cmd.ExecuteNonQuery();
                             }
 
@@ -49,13 +50,13 @@ namespace Modelo_BancoMenu
             }
         }
 
-        public DataTable LlenarTabla(string tabla) // Llenar tabla de reportes
+        public DataTable llenarTbl(string tabla) //Llenar tabla de reportes
         {
             using (OdbcConnection connection = con.AbrirConexion())
             {
                 if (connection != null)
                 {
-                    string sql = "SELECT pk_movban_id_transaccion, movban_valor_transaccion, movban_descripcion_transaccion, fk_movban_num_cuenta, fk_movban_tipo_transaccion, movban_status, movban_fecha_de_ingreso FROM " + tabla + ";";
+                    string sql = "SELECT pk_movban_id_transaccion, movban_valor_transaccion, movban_descripcion_transaccion, fk_movban_num_cuenta, fk_movban_tipo_transaccion, movban_status, movban_fecha_de_ingreso FROM  " + tabla + ";";
                     OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, connection);
                     DataTable table = new DataTable();
                     dataTable.Fill(table);
@@ -68,4 +69,5 @@ namespace Modelo_BancoMenu
             }
         }
     }
+
 }

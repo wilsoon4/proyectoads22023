@@ -16,10 +16,5 @@ namespace Vista_PrototipoMenu
         {
             InitializeComponent();
         }
-
-        private void navegador1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

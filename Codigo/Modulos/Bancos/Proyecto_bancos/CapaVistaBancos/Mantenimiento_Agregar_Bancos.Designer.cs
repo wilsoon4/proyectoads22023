@@ -29,6 +29,7 @@ namespace CapaVistaBancos
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mantenimiento_Agregar_Bancos));
             this.btn_salir_dispo = new System.Windows.Forms.Button();
             this.txt_numbanco = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,9 +38,10 @@ namespace CapaVistaBancos
             this.txt_estadoban = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.navegador1 = new NavegadorVista.Navegador();
-            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txt_id_banco = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btn_Ayuda = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_agBancos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,12 +117,14 @@ namespace CapaVistaBancos
             // txt_estadoban
             // 
             this.txt_estadoban.Enabled = false;
-            this.txt_estadoban.Location = new System.Drawing.Point(815, 301);
+            this.txt_estadoban.Location = new System.Drawing.Point(725, 301);
             this.txt_estadoban.Name = "txt_estadoban";
+            this.txt_estadoban.ReadOnly = true;
             this.txt_estadoban.Size = new System.Drawing.Size(43, 22);
             this.txt_estadoban.TabIndex = 92;
             this.txt_estadoban.Tag = "manag_status";
             this.txt_estadoban.Text = "1";
+            this.txt_estadoban.Visible = false;
             this.txt_estadoban.TextChanged += new System.EventHandler(this.txt_estadoban_TextChanged);
             // 
             // label3
@@ -146,19 +150,6 @@ namespace CapaVistaBancos
             this.navegador1.TabIndex = 95;
             this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(721, 303);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 20);
-            this.label1.TabIndex = 96;
-            this.label1.Text = "Estado:";
-            // 
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -182,15 +173,43 @@ namespace CapaVistaBancos
             this.txt_id_banco.Tag = "pk_manag_id_ban";
             this.txt_id_banco.Text = "1";
             // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(799, 301);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(43, 22);
+            this.textBox1.TabIndex = 99;
+            this.textBox1.Tag = "manag_status_conciliacion";
+            this.textBox1.Text = "0";
+            this.textBox1.Visible = false;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // btn_Ayuda
+            // 
+            this.btn_Ayuda.FlatAppearance.BorderSize = 0;
+            this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Ayuda.Image = ((System.Drawing.Image)(resources.GetObject("btn_Ayuda.Image")));
+            this.btn_Ayuda.Location = new System.Drawing.Point(833, 146);
+            this.btn_Ayuda.Name = "btn_Ayuda";
+            this.btn_Ayuda.Size = new System.Drawing.Size(93, 85);
+            this.btn_Ayuda.TabIndex = 106;
+            this.btn_Ayuda.Text = "Ayuda";
+            this.btn_Ayuda.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_Ayuda.UseVisualStyleBackColor = false;
+            this.btn_Ayuda.Click += new System.EventHandler(this.btn_Ayuda_Click);
+            // 
             // Mantenimiento_Agregar_Bancos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(161)))), ((int)(((byte)(116)))));
             this.ClientSize = new System.Drawing.Size(1069, 659);
+            this.Controls.Add(this.btn_Ayuda);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txt_id_banco);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_estadoban);
@@ -220,8 +239,9 @@ namespace CapaVistaBancos
         private System.Windows.Forms.TextBox txt_estadoban;
         private System.Windows.Forms.Label label3;
         private NavegadorVista.Navegador navegador1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txt_id_banco;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_Ayuda;
     }
 }

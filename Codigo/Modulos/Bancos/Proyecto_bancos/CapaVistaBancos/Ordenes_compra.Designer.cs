@@ -68,7 +68,7 @@ namespace CapaVistaBancos
             this.btn_salir_dispo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_salir_dispo.Image = global::CapaVistaBancos.Properties.Resources.signin_login_in_log_icon_255971;
             this.btn_salir_dispo.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_salir_dispo.Location = new System.Drawing.Point(984, -1);
+            this.btn_salir_dispo.Location = new System.Drawing.Point(769, -1);
             this.btn_salir_dispo.Name = "btn_salir_dispo";
             this.btn_salir_dispo.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btn_salir_dispo.Size = new System.Drawing.Size(84, 39);
@@ -80,18 +80,14 @@ namespace CapaVistaBancos
             // 
             // button1
             // 
-<<<<<<< HEAD
-            this.button1.Location = new System.Drawing.Point(654, 450);
-=======
-            this.button1.Location = new System.Drawing.Point(741, 433);
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+            this.button1.Location = new System.Drawing.Point(655, 421);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 93;
+            this.button1.TabIndex = 101;
             this.button1.Text = "Denegar";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox1
             // 
@@ -103,16 +99,12 @@ namespace CapaVistaBancos
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBox4);
-<<<<<<< HEAD
-            this.groupBox1.Location = new System.Drawing.Point(408, 272);
-=======
-            this.groupBox1.Location = new System.Drawing.Point(495, 255);
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+            this.groupBox1.Location = new System.Drawing.Point(413, 209);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(381, 114);
-            this.groupBox1.TabIndex = 92;
+            this.groupBox1.TabIndex = 100;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cuenta Destino";
             // 
@@ -201,16 +193,12 @@ namespace CapaVistaBancos
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.textBox1);
-<<<<<<< HEAD
-            this.groupBox2.Location = new System.Drawing.Point(29, 272);
-=======
-            this.groupBox2.Location = new System.Drawing.Point(116, 255);
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+            this.groupBox2.Location = new System.Drawing.Point(34, 209);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(357, 113);
-            this.groupBox2.TabIndex = 91;
+            this.groupBox2.TabIndex = 99;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cuenta Origen";
             // 
@@ -292,72 +280,56 @@ namespace CapaVistaBancos
             // label3
             // 
             this.label3.AutoSize = true;
-<<<<<<< HEAD
-            this.label3.Location = new System.Drawing.Point(687, 511);
-=======
-            this.label3.Location = new System.Drawing.Point(774, 494);
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+            this.label3.Location = new System.Drawing.Point(937, 692);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 17);
-            this.label3.TabIndex = 90;
+            this.label3.TabIndex = 98;
             this.label3.Text = "Submodulo: 5400";
             // 
             // button4
             // 
-<<<<<<< HEAD
-            this.button4.Location = new System.Drawing.Point(531, 449);
-=======
-            this.button4.Location = new System.Drawing.Point(618, 432);
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+            this.button4.Location = new System.Drawing.Point(520, 421);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 28);
-            this.button4.TabIndex = 89;
+            this.button4.TabIndex = 97;
             this.button4.Text = "Autorizar";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // txt_traslado
             // 
-<<<<<<< HEAD
-            this.txt_traslado.Location = new System.Drawing.Point(346, 455);
-=======
-            this.txt_traslado.Location = new System.Drawing.Point(433, 438);
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+            this.txt_traslado.Location = new System.Drawing.Point(322, 427);
             this.txt_traslado.Margin = new System.Windows.Forms.Padding(4);
             this.txt_traslado.Name = "txt_traslado";
             this.txt_traslado.Size = new System.Drawing.Size(132, 22);
-            this.txt_traslado.TabIndex = 88;
+            this.txt_traslado.TabIndex = 96;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-<<<<<<< HEAD
-            this.label4.Location = new System.Drawing.Point(181, 456);
-=======
-            this.label4.Location = new System.Drawing.Point(268, 439);
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+            this.label4.Location = new System.Drawing.Point(147, 427);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(135, 17);
-            this.label4.TabIndex = 87;
+            this.label4.TabIndex = 95;
             this.label4.Text = "Valor de la compra: ";
             // 
             // button6
             // 
-<<<<<<< HEAD
-            this.button6.Location = new System.Drawing.Point(41, 441);
-=======
-            this.button6.Location = new System.Drawing.Point(128, 424);
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+            this.button6.Location = new System.Drawing.Point(34, 398);
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(105, 46);
-            this.button6.TabIndex = 86;
+            this.button6.TabIndex = 94;
             this.button6.Text = "Pre-visualizar saldos";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Ordenes_compra
             // 

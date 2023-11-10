@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Capa_VistaConsultas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\..\..\modulo_bancos\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\Capa_VistaConsultas.dll</HintPath>
+      <HintPath>..\..\..\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\Capa_VistaConsultas.dll</HintPath>
     </Reference>
     <Reference Include="Controlador_PrototipoMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -45,17 +45,13 @@
       <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
     </Reference>
     <Reference Include="NavegadorVista">
-      <HintPath>..\..\..\..\..\..\modulo_bancos\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\NavegadorVista.dll</HintPath>
+      <HintPath>..\..\..\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\NavegadorVista.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="Seguridad_Controlador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-<<<<<<< HEAD
-      <HintPath>..\..\..\..\..\..\modulo_bancos\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\Seguridad_Controlador.dll</HintPath>
-=======
-      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\Seguridad_Controlador.dll</HintPath>
->>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
+      <HintPath>..\..\..\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\Seguridad_Controlador.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,6 +64,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Vista_Seguridad">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\Vista_Seguridad.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>

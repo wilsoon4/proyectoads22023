@@ -5,20 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Odbc;
 
-
-
 namespace Modelo_BancoMenu
 {
+
     class ConexionBanco
     {
-        private string connectionString;
+        static string nombreBase = "HotelSConexion";
+        private string connectionString = "Dsn='" + nombreBase + "'";
 
-        public ConexionBanco()
-        {
-            // Asignar el nombre de la base de datos directamente
-            string nombreBase = "HotelSConexion";
-            connectionString = $"Dsn={nombreBase}";
-        }
 
         public OdbcConnection AbrirConexion()
         {

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Seguridad_Controlador;
 using Vista_Seguridad;
-using Vista_PrototipoMenu;
+//using Vista_PrototipoMenu;
 
 //Comentado por George Mayén 25/02/2023
 namespace MenuHCV
@@ -41,9 +41,9 @@ namespace MenuHCV
         //Método que ingresa un valor a la bitacora de acuerdo el módulo
         public void btnlogout_Click(object sender, EventArgs e)
         {
-            MenuSeguridad b = new MenuSeguridad();
-            b.Show();
-            cn.setBtitacora("1000", "Ingreso Seguridad");
+            //MenuSeguridad b = new MenuSeguridad();
+            //b.Show();
+            //cn.setBtitacora("1000", "Ingreso Seguridad");
             //this.Close();
         }
 
@@ -82,7 +82,7 @@ namespace MenuHCV
 
         private void btnBancos_Click(object sender, EventArgs e)
         {
-           CapaVistaBancos.Menu_inicial form = new CapaVistaBancos.Menu_inicial();
+            CapaVistaBancos.Menu_inicial form = new CapaVistaBancos.Menu_inicial();
             form.Show();
             cn.setBtitacora("5000", "Ingreso Ventas");
         }

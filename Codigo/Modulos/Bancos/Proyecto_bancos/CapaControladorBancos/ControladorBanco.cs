@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using CapaModeloBancos;
-using System.Data.Odbc;
+using System.Windows.Forms;
 
+using System.Data.Odbc;
 namespace CapaControladorBancos
 {
     public class ControladorBanco
-    {
-        private SentenciasBanco sentencias ;
+    { //Codigo escrito por Luis Franco, Andrea Corado, Jonathan Arriaga e Isabel Aguirre e Diego Marroquin 
+        private SentenciasBanco sentencias;
 
         public void InsertarTipoMoneda(string TipoMoneda, string ValorMoneda, string estado)
         {
@@ -24,136 +25,193 @@ namespace CapaControladorBancos
         public ControladorBanco()
         {
             sentencias = new SentenciasBanco();
-           
+
         }
-        public void InsertarMovimiento(string valorMovimiento, string descripcionMovimiento, string numCuenta, string tipoTransaccion, string estado)
+        public void InsertarMovimiento(string valorMovimiento, string descripcionMovimiento, string numCuenta, string tipoTransaccion, string estado, string valorTrans, string estadoConciliacion)
         {
-            sentencias.InsertarMovimiento(valorMovimiento, descripcionMovimiento, numCuenta, tipoTransaccion, estado);
+            sentencias.InsertarMovimiento(valorMovimiento, descripcionMovimiento, numCuenta, tipoTransaccion, estado, valorTrans, estadoConciliacion);
         }
         public DataTable llenarTbl(string tabla)
         {
             return sentencias.llenarTbl(tabla);
         }
 
-        public static OdbcConnection ObtenerConexion()
+        public DataTable ObtenerCuentas()
         {
-            // Cadena de conexión ODBC
-            string connectionString = "DSN=hotelssse";
-
-            OdbcConnection conectar = new OdbcConnection(connectionString);
-
-            conectar.Open(); // Abriendo la conexión
-            return conectar; // Regresa la conexión
+            return sentencias.ObtenerCuentas();
+        }
+        public decimal ObtenerSaldoTotal()
+        {
+            return sentencias.CalcularSaldoTotal();
         }
 
-        public static DataTable ObtenerIdBanco(string Banco)
+
+        public DataTable ObtenerTipoDeTransacciones()
         {
-            DataTable dt = new DataTable();
+            return sentencias.TipoTransaccionBancaria();
 
-            string consulta = "SELECT cori_tipo_de_compra FROM tbl_compra WHERE cdes_id_compra = ?"; // Consulta
+        }
+        public DataTable ObtenerTiposMoneda()
+        {
+            return sentencias.ObtenerTiposMoneda();
+        }
 
-            using (OdbcConnection connection = ObtenerConexion())
-            using (OdbcCommand comandoB = new OdbcCommand(consulta, connection))
+
+        /*public void fillBanco(ComboBox cmb)
+        {
+            List<Banco> bancos = sentencias.ObtenerBanco();
+            foreach(Banco b in bancos)
             {
-                comandoB.Parameters.AddWithValue("cori_tipo_de_compra", Banco); // Agrega los parámetros a la consulta
-                OdbcDataAdapter adap = new OdbcDataAdapter(comandoB); // Adaptador
-                adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                cmb.Items.Add(b.manag_nombre_banco);
+            }
+        }*/
+
+        public DataTable ObtenerBancos()
+        {
+            return sentencias.ObtenerBancos();
+        }
+
+        public DataTable ObtenerTipoCuenta()
+        {
+            return sentencias.ObtenerTipoCuenta();
+
+        }
+
+        public DataTable valorTrans()
+        {
+            return sentencias.valorTransaccion();
+
+        }
+
+        public int ObtenerValorTransaccion(string tipoTransaccion)
+        {
+            return sentencias.ObtenerValorTransaccion(tipoTransaccion);
+        }
+
+            public static OdbcConnection ObtenerConexion()
+            {
+                // Cadena de conexión ODBC
+                string connectionString = "DSN=hotelssse";
+
+                OdbcConnection conectar = new OdbcConnection(connectionString);
+
+                conectar.Open(); // Abriendo la conexión
+                return conectar; // Regresa la conexión
             }
 
-            return dt;
-        }
-
-        public static DataTable idmoncu(string noCuenta)
-        {
-            DataTable dt = new DataTable();
-
-            string consulta = "SELECT cdes_id_compra FROM tbl_cuentabanco WHERE cori_noCuenta = ?"; // Consulta
-
-            using (OdbcConnection connection = ObtenerConexion())
-            using (OdbcCommand comando = new OdbcCommand(consulta, connection))
+            public static DataTable ObtenerIdBanco(string Banco)
             {
-                comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
-                OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
-                adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                DataTable dt = new DataTable();
+
+                string consulta = "SELECT cori_tipo_de_compra FROM tbl_compra WHERE cdes_id_compra = ?"; // Consulta
+
+                using (OdbcConnection connection = ObtenerConexion())
+                using (OdbcCommand comandoB = new OdbcCommand(consulta, connection))
+                {
+                    comandoB.Parameters.AddWithValue("cori_tipo_de_compra", Banco); // Agrega los parámetros a la consulta
+                    OdbcDataAdapter adap = new OdbcDataAdapter(comandoB); // Adaptador
+                    adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                }
+
+                return dt;
             }
 
-            return dt;
-        }
-
-        public static DataTable ObtenerSaldo(string noCuenta)
-        {
-            DataTable dt = new DataTable();
-
-            string consulta = "SELECT cdes_saldoDisponible FROM tbl_cuentabanco, tbl_compra WHERE tbl_cuentabanco.cori_noCuenta = ? AND tbl_compra.cdes_id_compra = tbl_cuentabanco.cdes_id_compra;"; // Consulta
-
-            using (OdbcConnection connection = ObtenerConexion())
-            using (OdbcCommand comando = new OdbcCommand(consulta, connection))
+            public static DataTable idmoncu(string noCuenta)
             {
-                comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
-                OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
-                adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                DataTable dt = new DataTable();
+
+                string consulta = "SELECT cdes_id_compra FROM tbl_cuentabanco WHERE cori_noCuenta = ?"; // Consulta
+
+                using (OdbcConnection connection = ObtenerConexion())
+                using (OdbcCommand comando = new OdbcCommand(consulta, connection))
+                {
+                    comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
+                    OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
+                    adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                }
+
+                return dt;
             }
 
-            return dt;
-        }
-
-        public static DataTable ObtenertMoneda(string noCuenta)
-        {
-            DataTable dt = new DataTable();
-
-            string consulta = "SELECT fk_cori_tipo_de_moneda FROM tbl_cuentabanco, tbl_compra WHERE tbl_cuentabanco.cori_noCuenta = ? AND tbl_compra.cdes_id_compra = tbl_cuentabanco.cdes_id_compra;"; // Consulta
-
-            using (OdbcConnection connection = ObtenerConexion())
-            using (OdbcCommand comando = new OdbcCommand(consulta, connection))
+            public static DataTable ObtenerSaldo(string noCuenta)
             {
-                comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
-                OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
-                adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                DataTable dt = new DataTable();
+
+                string consulta = "SELECT cdes_saldoDisponible FROM tbl_cuentabanco, tbl_compra WHERE tbl_cuentabanco.cori_noCuenta = ? AND tbl_compra.cdes_id_compra = tbl_cuentabanco.cdes_id_compra;"; // Consulta
+
+                using (OdbcConnection connection = ObtenerConexion())
+                using (OdbcCommand comando = new OdbcCommand(consulta, connection))
+                {
+                    comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
+                    OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
+                    adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                }
+
+                return dt;
             }
 
-            return dt;
-        }
-
-        public static DataTable ValorM(string moneda)
-        {
-            DataTable dt = new DataTable();
-
-            string consulta = "SELECT cori_valor FROM tbl_moneda WHERE tbl_moneda.tbl_moneda = ?"; // Consulta
-
-            using (OdbcConnection connection = ObtenerConexion())
-            using (OdbcCommand comando = new OdbcCommand(consulta, connection))
+            public static DataTable ObtenertMoneda(string noCuenta)
             {
-                comando.Parameters.AddWithValue("cori_nombre", moneda); // Parámetros que se agregan a la consulta
-                OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
-                adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                DataTable dt = new DataTable();
+
+                string consulta = "SELECT fk_cori_tipo_de_moneda FROM tbl_cuentabanco, tbl_compra WHERE tbl_cuentabanco.cori_noCuenta = ? AND tbl_compra.cdes_id_compra = tbl_cuentabanco.cdes_id_compra;"; // Consulta
+
+                using (OdbcConnection connection = ObtenerConexion())
+                using (OdbcCommand comando = new OdbcCommand(consulta, connection))
+                {
+                    comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
+                    OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
+                    adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                }
+
+                return dt;
             }
 
-            return dt;
-        }
-
-        public static void trasladoS(string noCuenta, double saldo)
-        {
-            string updateQuery = "UPDATE tbl_cuentabanco SET cdes_saldoDisponible = ? WHERE tbl_cuentabanco.cori_noCuenta = ?"; // Consulta
-
-            using (OdbcConnection connection = ObtenerConexion())
-            using (OdbcCommand comando = new OdbcCommand(updateQuery, connection))
+            public static DataTable ValorM(string moneda)
             {
-                comando.Parameters.AddWithValue("saldo", saldo); // Parámetros que se agregan a la consulta
-                comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
-                comando.ExecuteNonQuery(); // Ejecución del query para realizar la actualización
+                DataTable dt = new DataTable();
+
+                string consulta = "SELECT cori_valor FROM tbl_moneda WHERE tbl_moneda.tbl_moneda = ?"; // Consulta
+
+                using (OdbcConnection connection = ObtenerConexion())
+                using (OdbcCommand comando = new OdbcCommand(consulta, connection))
+                {
+                    comando.Parameters.AddWithValue("cori_nombre", moneda); // Parámetros que se agregan a la consulta
+                    OdbcDataAdapter adap = new OdbcDataAdapter(comando); // Adaptador
+                    adap.Fill(dt); // Llena la datatable con el adaptador del comando
+                }
+
+                return dt;
             }
-        }
 
-        public static void actualizacion_saldos()
-        {
-            string updateQuery = "UPDATE tbl_cuentabanco SET cdes_saldoActual = cdes_saldoDisponible;"; // Consulta
-
-            using (OdbcConnection connection = ObtenerConexion())
-            using (OdbcCommand comando = new OdbcCommand(updateQuery, connection))
+            public static void trasladoS(string noCuenta, double saldo)
             {
-                comando.ExecuteNonQuery(); // Ejecución del query para realizar la actualización
+                string updateQuery = "UPDATE tbl_cuentabanco SET cdes_saldoDisponible = ? WHERE tbl_cuentabanco.cori_noCuenta = ?"; // Consulta
+
+                using (OdbcConnection connection = ObtenerConexion())
+                using (OdbcCommand comando = new OdbcCommand(updateQuery, connection))
+                {
+                    comando.Parameters.AddWithValue("saldo", saldo); // Parámetros que se agregan a la consulta
+                    comando.Parameters.AddWithValue("cori_noCuenta", noCuenta); // Parámetros que se agregan a la consulta
+                    comando.ExecuteNonQuery(); // Ejecución del query para realizar la actualización
+                }
+            }
+
+            public static void actualizacion_saldos()
+            {
+                string updateQuery = "UPDATE tbl_cuentabanco SET cdes_saldoActual = cdes_saldoDisponible;"; // Consulta
+
+                using (OdbcConnection connection = ObtenerConexion())
+                using (OdbcCommand comando = new OdbcCommand(updateQuery, connection))
+                {
+                    comando.ExecuteNonQuery(); // Ejecución del query para realizar la actualización
+                }
             }
         }
     }
-}
+
+
+
+
+
 
