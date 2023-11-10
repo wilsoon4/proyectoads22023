@@ -51,7 +51,11 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="Seguridad_Controlador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
+<<<<<<< HEAD
       <HintPath>..\..\..\..\..\..\modulo_bancos\proyectoads22023\Codigo\Modulos\Bancos\Proyecto_bancos\CapaVistaBancos\bin\Debug\Seguridad_Controlador.dll</HintPath>
+=======
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Program Files\UMG\Instalador General HSC\Seguridad_Controlador.dll</HintPath>
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

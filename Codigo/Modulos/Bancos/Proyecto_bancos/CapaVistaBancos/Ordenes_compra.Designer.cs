@@ -80,7 +80,11 @@ namespace CapaVistaBancos
             // 
             // button1
             // 
+<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(654, 450);
+=======
+            this.button1.Location = new System.Drawing.Point(741, 433);
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -99,7 +103,11 @@ namespace CapaVistaBancos
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBox4);
+<<<<<<< HEAD
             this.groupBox1.Location = new System.Drawing.Point(408, 272);
+=======
+            this.groupBox1.Location = new System.Drawing.Point(495, 255);
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
@@ -193,7 +201,11 @@ namespace CapaVistaBancos
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.textBox1);
+<<<<<<< HEAD
             this.groupBox2.Location = new System.Drawing.Point(29, 272);
+=======
+            this.groupBox2.Location = new System.Drawing.Point(116, 255);
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
@@ -280,7 +292,11 @@ namespace CapaVistaBancos
             // label3
             // 
             this.label3.AutoSize = true;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(687, 511);
+=======
+            this.label3.Location = new System.Drawing.Point(774, 494);
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 17);
@@ -289,7 +305,11 @@ namespace CapaVistaBancos
             // 
             // button4
             // 
+<<<<<<< HEAD
             this.button4.Location = new System.Drawing.Point(531, 449);
+=======
+            this.button4.Location = new System.Drawing.Point(618, 432);
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 28);
@@ -300,7 +320,11 @@ namespace CapaVistaBancos
             // 
             // txt_traslado
             // 
+<<<<<<< HEAD
             this.txt_traslado.Location = new System.Drawing.Point(346, 455);
+=======
+            this.txt_traslado.Location = new System.Drawing.Point(433, 438);
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
             this.txt_traslado.Margin = new System.Windows.Forms.Padding(4);
             this.txt_traslado.Name = "txt_traslado";
             this.txt_traslado.Size = new System.Drawing.Size(132, 22);
@@ -309,7 +333,11 @@ namespace CapaVistaBancos
             // label4
             // 
             this.label4.AutoSize = true;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(181, 456);
+=======
+            this.label4.Location = new System.Drawing.Point(268, 439);
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(135, 17);
@@ -318,7 +346,11 @@ namespace CapaVistaBancos
             // 
             // button6
             // 
+<<<<<<< HEAD
             this.button6.Location = new System.Drawing.Point(41, 441);
+=======
+            this.button6.Location = new System.Drawing.Point(128, 424);
+>>>>>>> 5673e6fc43f87190d78d6474209b7d05ac907b05
             this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(105, 46);
